@@ -29,7 +29,7 @@ class Application(Frame):
 
     def createWidgets(self): 
         # init count down : 1st=25:00, 2nd=00:20, 3rd=05:00      
-        self.inticount = [2,5,0,0,0,0,2,0,0,5,0,0]
+        self.inticount = [2,3,0,0,0,0,2,0,0,5,0,0]
         self.var1min11 = IntVar()
         self.var1min1 = IntVar()
         self.var2min11 = IntVar()
